@@ -14,7 +14,7 @@ float32 yaw_vel			# in radians/sec
 float32 yaw_acc			# in radians/sec^2
 float32 yaw_jerk		# in radians/sec^2
 
-bool valid
+uint8 valid
 
 # trajectory type
 int8 TRAJECTORY_TYPE_UNKNOWN = -1
