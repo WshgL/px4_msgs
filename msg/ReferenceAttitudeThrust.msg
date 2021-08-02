@@ -13,7 +13,7 @@ float32[3] fw_rpy_vel		# in rad/sec
 float32[3] fw_rpy_acc		# in rad/sec^2
 float32[3] fw_thrust		# N
 
-uint8 valid
+bool valid
 
 # log
 float32[3] pos_err

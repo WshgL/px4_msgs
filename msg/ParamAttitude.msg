@@ -7,4 +7,4 @@ float32[3] dampping_1st		# N*m/(rad/s)
 float32[3] dampping_2nd		# N*m/[(rad/s)^2]
 float32[3] disturbance		# N*m
 
-uint8 valid
+bool valid
