@@ -14,8 +14,3 @@ float32[3] fw_rpy_acc		# in rad/sec^2
 float32[3] fw_thrust		# N
 
 bool valid
-
-# log
-float32[3] pos_err
-float32[3] vel_err
-float32[3] dis_est
