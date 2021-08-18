@@ -14,3 +14,4 @@ float32[3] fw_rpy_acc		# in rad/sec^2
 float32[3] fw_thrust		# N
 
 bool valid
+bool en_est
