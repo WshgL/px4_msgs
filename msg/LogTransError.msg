@@ -5,3 +5,8 @@ float32[3] vel_vir
 float32[3] pos_err
 float32[3] vel_err
 float32[3] dis_est
+
+float32[3] vee_vir
+# float32[3] vee_err
+float32[3] disp_est
+float32[3] disv_est
