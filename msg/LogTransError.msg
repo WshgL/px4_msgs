@@ -10,3 +10,6 @@ float32[3] vel_err		# vee_err
 # float32[3] vee_err
 float32[3] disp_est
 float32[3] disv_est
+
+float32[3] rate			# rad/s
+float32[3] racc			# rad/s^2
