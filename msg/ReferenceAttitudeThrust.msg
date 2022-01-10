@@ -8,12 +8,12 @@ float32[3] euler		# rad NED -PI..+PI
 float32[3] thrust		# N
 
 # for feedforward
-float32[3] ff_euler		# rad NED -PI..+PI
-float32[3] ff_rate		# rad/s
-float32[3] ff_racc		# rad/s^2
-float32[3] ff_thrust		# N
+float32[3] euler_ff		# rad NED -PI..+PI
+float32[3] rate_ff		# rad/s
+float32[3] racc_ff		# rad/s^2
+float32[3] thrust_ff		# N
 
-float32[3] ff_acc		# m/s^2
+float32[3] acc_ff		# m/s^2
 
 bool valid
 bool en_est
