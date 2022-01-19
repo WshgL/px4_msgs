@@ -1,5 +1,4 @@
 uint64 timestamp		# time since system start (microseconds)
-uint64 timestamp_sample	    	# the timestamp the data this signal is based on was sampled
 
 float32[6] j_vec		# kg*m^2 [jxx jxy jxz jyy jyz jzz]
 float32[3] cog			# kg*m

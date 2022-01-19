@@ -1,8 +1,5 @@
 # Local reference trajectory in NED frame
-# setting something to NaN means the state should not be controlled
-
 uint64 timestamp		# time since system start (microseconds)
-uint64 timestamp_sample		# the timestamp the data this signal is based on was sampled
 
 float32[3] xyz			# in meters NED
 float32[3] xyz_vel		# in meters/sec
