@@ -7,3 +7,5 @@ float32[3] dis_est
 
 float32[3] rate			# rad/s
 float32[3] racc			# rad/s^2
+
+bool valid

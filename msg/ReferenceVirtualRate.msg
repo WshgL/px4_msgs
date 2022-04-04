@@ -4,4 +4,4 @@ float32[3] rate_vir		# in rad/sec
 bool valid
 
 # log
-float32[3] att_err
+# float32[3] rot_err
