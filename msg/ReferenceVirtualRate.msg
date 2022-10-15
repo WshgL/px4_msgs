@@ -2,7 +2,7 @@ uint64 timestamp		# time since system start (microseconds)
 
 float32[3] rate_vir		# in rad/sec
 float32[3] torque_ff		# N*m
-float32[3] h_robust
+# float32[3] h_robust
 float32[3] force		# N
 
 bool valid
