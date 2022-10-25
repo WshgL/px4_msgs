@@ -11,6 +11,7 @@ float32 yaw_acc			# in radians/sec^2
 
 bool valid
 bool en_est
+bool en_flt
 
 # trajectory type
 int8 TRAJECTORY_TYPE_UNKNOWN = -1

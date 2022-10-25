@@ -9,3 +9,4 @@ float32[3] force	# N
 
 bool valid
 bool en_est
+bool en_flt

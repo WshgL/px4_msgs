@@ -16,3 +16,4 @@ float32[3] acc_ff		# m/s^2
 
 bool valid
 bool en_est
+bool en_flt
