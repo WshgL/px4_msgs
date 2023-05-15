@@ -5,7 +5,7 @@ float32[3] pos_err
 float32[3] vel_err
 float32[3] dis_est
 
-# float32[3] dot_bz
-# float32[3] ddot_bz
+float32[3] rate			# rad/s
+float32[3] racc			# rad/s^2
 
 bool valid
