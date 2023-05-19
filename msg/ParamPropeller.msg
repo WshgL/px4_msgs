@@ -7,3 +7,5 @@ float32[3] dampping	# N*m/(rad/s)
 float32[3] dis_rate	# disturbance (angular rate)
 
 bool valid
+
+# TOPICS param_propeller param_propeller_ros
