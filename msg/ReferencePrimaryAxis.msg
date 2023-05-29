@@ -7,7 +7,7 @@ float32 ddyaw_des
 
 float32[3] err_bz		# NED
 float32[3] dbz_ref
-float32[3] force_ref		# N
+float32 thrust_ref		# N
 
 float32[4] quat_ff
 float32[3] w_ff			# rad/s
