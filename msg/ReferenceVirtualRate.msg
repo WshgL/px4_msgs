@@ -5,7 +5,7 @@ float32[3] rate_vir	# rad/s
 float32[3] rate_ff	# rad/s
 float32[3] racc_ff	# rad/s^2
 float32[3] ab_ff	# m/s^2
-float32[3] force_ref	# N
+float32 thrust_ref	# N
 
 bool valid
 bool en_est
