@@ -5,4 +5,4 @@ uint64 timestamp_sample		# the timestamp of the raw data (microseconds)
 
 float32[3] xyz			# Bias corrected acceleration (including gravity) in the FRD body frame XYZ-axis in m/s^2
 
-# TOPICS vehicle_acceleration vehicle_acceleration_unfiltered
+float32[3] raw
