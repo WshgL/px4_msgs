@@ -1,16 +1,16 @@
 # Local reference trajectory in NED frame
 uint64 timestamp		# time since system start (microseconds)
 
-float32[3] xyz			# in meters NED
-float32[3] xyz_vel		# in meters/sec
-float32[3] xyz_acc		# in meters/sec^2
+float32[3] pos			# in meters NED
+float32[3] trans_vel		# in meters/sec
+float32[3] trans_acc		# in meters/sec^2
 
 float32 yaw			# in radians NED -PI..+PI
-float32 yaw_vel			# in radians/sec
+float32 yaw_rate		# in radians/sec
 float32 yaw_acc			# in radians/sec^2
 
 float32[4] quat
-float32[3] ang_vel
+float32[3] ang_rate
 float32[3] ang_acc
 
 # float32 thrust
