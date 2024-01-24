@@ -9,6 +9,15 @@ float32 yaw			# in radians NED -PI..+PI
 float32 yaw_vel			# in radians/sec
 float32 yaw_acc			# in radians/sec^2
 
+float32[4] quat
+float32[3] ang_vel
+float32[3] ang_acc
+
+# float32 thrust
+float32[3] force
+float32[3] torque
+# float32[4] mot_spd
+
 bool valid
 bool en_est
 
