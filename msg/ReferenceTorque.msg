@@ -1,7 +1,7 @@
 uint64 timestamp		# time since system start (microseconds)
 
+float32[3] torque_ctrl		# N*m
 float32[3] torque_ref		# N*m
-float32[3] torque_ff		# N*m
 
 bool valid
 
