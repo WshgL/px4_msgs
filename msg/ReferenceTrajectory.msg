@@ -16,7 +16,7 @@ float32[3] ang_acc
 # float32 thrust
 float32[3] force
 float32[3] torque
-# float32[4] mot_spd
+float32[4] mot_spd
 
 bool valid
 bool en_est
