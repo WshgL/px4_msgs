@@ -54,10 +54,10 @@ float32[] torque_y
 float32[] torque_z
 
 # motor speed
-float32[] mot_1
-float32[] mot_2
-float32[] mot_3
-float32[] mot_4
+float32[] mots_1
+float32[] mots_2
+float32[] mots_3
+float32[] mots_4
 
 # flag
 bool valid
